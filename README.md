@@ -10,12 +10,12 @@ Then javac is called to compile sources.txt. So simple that the scripts are give
 
 ## Linux
 ~~~~SH
-$ find -name "*.java" > sources.txt
-$ javac @sources.txt
+find -name "*.java" > sources.txt
+javac @sources.txt
 ~~~~
 
 ## Windows
 ~~~~BAT
-> dir /s /B *.java > sources.txt
-> javac @sources.txt
+dir /s /B *.java > sources.txt
+javac @sources.txt
 ~~~~
